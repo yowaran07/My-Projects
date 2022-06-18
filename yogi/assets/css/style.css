@@ -1,0 +1,573 @@
+/**
+* Template Name: Gp - v4.7.0
+* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background: url(https://i.pinimg.com/736x/28/5f/c4/285fc4a5eb218c4c42f7f1a37cef4ad5.jpg) */
+  /* background: url(https://media.istockphoto.com/photos/string-light-bulbs-at-sunset-picture-id1300384615?b=1&k=20&m=1300384615&s=170667a&w=0&h=rkDm5TdJp_dU7VAknk4EuZEZ2ho2QQspOavjlwGrsuI=) */
+  /* background: url(https://www.99images.com/download-image/846303/1920x1200) */
+  /* background: url(https://www.mwallpapers.com/download-image/807434/1080x810) */
+  /* background: url(https://www.99images.com/download-image/958647/3840x2400) */
+  /* background: url(https://wallpapercave.com/wp/wp4294220.png) */
+  /* background: url(https://www.teahub.io/photos/full/43-434668_blue-and-black-backgrounds-digital-black-background-designs.jpg) */
+  /* background: url(https://wallpaperaccess.com/full/473129.jpg) */
+  /* background: url(https://wallpaper.dog/large/10948580.jpg) */
+  /* background: url(https://img.wallpapersafari.com/desktop/728/410/93/33/SNdBfO.jpg) */
+  /* background: url(https://www.wallpaperuse.com/wallp/40-409515_m.jpg) */
+  background: url(https://c4.wallpaperflare.com/wallpaper/670/883/685/plexus-atoms-neutrons-electrons-wallpaper-preview.jpg)
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6FqPzx2s9syAqmGpT9EMsbb376l381eIKUU8f4ImJX6fSTDV9eZiX00FLpflgv1-6bu0&usqp=CAU) */
+  /* background: url(https://media.istockphoto.com/photos/decoration-twinkle-glitters-background-abstract-shiny-backdrop-with-picture-id1313832936?b=1&k=20&m=1313832936&s=170667a&w=0&h=0PcSvVrwaz2-Dlwbastise9n-FoHs3fWNzER2QDLSLI=) */
+  /* background: url(https://media.istockphoto.com/photos/silver-winter-floating-dust-particles-with-flare-on-black-background-picture-id1174254431?k=20&m=1174254431&s=612x612&w=0&h=x8q2atMLqrjedmy4uU_SgLrsTSllJ7n2FSCSvmJKkbU=) */
+  /* background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dce3647b-6179-463c-b4c8-bd642f5bb216/da4f4rv-3077e8fb-3257-423a-8a3b-520e4db92afc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RjZTM2NDdiLTYxNzktNDYzYy1iNGM4LWJkNjQyZjViYjIxNlwvZGE0ZjRydi0zMDc3ZThmYi0zMjU3LTQyM2EtOGEzYi01MjBlNGRiOTJhZmMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IJ0YCSPMBL6tgopln_CJAwxQpSHd8ddbi_lUx-Mr9Mc) */
+   no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: blue;
+}
+
+a {
+  color: rgb(248, 78, 16);
+  text-decoration: none;
+}
+
+a:hover {
+  color: magenta;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-control {
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  color:yellow;
+
+}
+.select2-search__field {
+  background-color: black;
+  color:orange;
+  
+
+}
+
+.select2-container--default
+ .select2-selection--single 
+ .select2-selection__rendered{
+  color:white;
+  background-color:blue;
+}
+
+.select2-results__option{
+  color:yellow;
+  background-color:black;
+}
+
+
+.select2-container--default .select2-selection--single{
+  color:yellow;
+  background-color:black;
+}
+
+
+
+.table{
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+  backdrop-filter: blur(30px);
+
+}
+textarea,input{
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+  backdrop-filter: blur(30px);
+
+}
+.card{
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+  backdrop-filter: blur(30px);
+}
+
+.active-pink input[type=text] {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.side{
+  padding:55px 0px 5px 25px;
+
+}
+.row .side .card{
+  text-align: left;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.side .card-body{
+  border-color: orange;
+  color: rgb(80, 226, 43);
+  text-align: left;
+}
+.side .card-header{
+  color: orange;
+  border-bottom: 5px;
+  text-align: center;
+}
+
+.row .rside .card{
+  text-align: left;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(30px);
+}
+
+.rside .card-body{
+  border-color: orange;
+  color: rgb(80, 226, 43);
+  text-align: left;
+}
+.rside .card-header{
+  color: orange;
+  border-bottom: 5px;
+  text-align: center;
+}
+
+.main{
+  padding: 75px 0px 2px 0px;
+}
+.rside{
+ padding: 25px 0px 2px 0px; 
+
+}
+
+.team-box{
+    margin-bottom: 30px;
+    display: block;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+}
+
+.sec-title .page{
+  border-color: red;
+}
+.team-box .img-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.team-box:hover .img-box img{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+.team-box .img-box ul{
+    position: absolute;
+    top: 15px;
+    left: -40px;
+    opacity: 0;
+    visibility: hidden;
+}
+.team-box:hover .img-box ul{
+    left: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+.team-box .img-box ul li a{
+    display: block;
+    background-color: rgb(21, 235, 28);
+    font-size: 13px;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+}
+.team-box .img-box ul li:hover a{
+    background-color: black;
+}
+.team-box .text-box{
+    margin-top: 25px;
+    padding: 0 25px;
+}
+.team-box .text-box h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #f7f7f7;
+}
+.team-box .text-box h5 a{
+    color: #f7f7f7;
+    display: inline-block;
+}
+.team-box .text-box h5:hover,
+.team-box .text-box h5:hover a{
+    color: rgb(70, 226, 43);
+}
+.team-box .text-box span{
+    display: inline-block;
+    color: rgb(94, 255, 0);
+    margin: 12px 0 0 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+
+.grid {
+  color: orange;
+  text-align: left;
+  border-radius: 15px;
+}
+.grid .row{
+  color: white;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(30px);
+  text-align: center;
+  line-height: 40px;
+  
+}
+.grid .col-md-3,.col-md-6{
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 15px;
+  
+}
+
+
+.dropbtn {
+  background-color: blueviolet;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: magenta;
+  color: white;
+}
+
+/* The search field */
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 54px 62px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid red;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blueviolet;
+  min-width: 230px;
+  border: 1px solid blueviolet;
+  z-index: 1000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  font-size: 20px;
+  padding: 5px 2px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: magenta}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.bio{
+  padding: 55px 5px 5px 5px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+input{
+  font-family: 'Open Sans', sans-serif;
+}
+
+input,button{
+  outline: none;
+}
+
+.main_container{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #cddc39;
+  background-image: url('https://www.volunteeringkingston.org.uk/wp-content/uploads/2018/10/Winter.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_container .animate {
+    display: inline-block;
+    width: calc(10px * var(--count));
+    height: calc(10px * var(--count));
+    border-radius: calc(5px * var(--count));
+    border: 2px solid #fff5;
+    position: absolute;
+    top: calc(6% * var(--count));
+    left: calc(10% * var(--count));
+    box-shadow: 0 2px 6px #0002, 0 4px 16px #0004;
+
+
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-delay: calc(0.2s * var(--count));
+    animation-duration: calc(5s * var(--count));
+    animation-fill-mode: both;
+}
+
+.main_container .animate:nth-child(1) {
+    background-color: #ffc107;
+}
+
+.main_container .animate:nth-child(2) {
+    background-color: #2196f3;
+}
+
+.main_container .animate:nth-child(3) {
+    background-color: #8bc34a;
+}
+
+.main_container .animate:nth-child(4) {
+    background-color: #f44336;
+}
+.main_container .animate:nth-child(5) {
+  background-color: #14d31e;
+}
+.main_container .animate:nth-child(6) {
+  background-color: #11e8f7;
+}
+.main_container .animate:nth-child(7) {
+  background-color: #e40df3;
+}
+
+
+.main_container .login_form {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    padding: 50px 25px;
+    background-image: linear-gradient(5deg, #fff1, #fff3);
+    backdrop-filter: blur(30px);
+    border-radius: 12px;
+    border: 2px outset #fff5;
+    position: relative;
+    box-shadow: 0 2px 6px #0002, 0 5px 16px #0005;
+}
+
+.main_container .login_form .login_form_title {
+    font-size: 18px;
+    color: #000;
+}
+
+.main_container .login_form .group {
+    position: relative;
+    margin-top: 30px;
+}
+
+.main_container .login_form .group input {
+    background-color: #0002;
+    border-radius: 4px;
+    padding: 6px 25px 6px 10px;
+    display: block;
+    width: 100%;
+    box-shadow: -1px 1px 2px #0002 inset;
+    color: #fff;
+    font-size: 16px;
+    border: 1px outset #fff5;
+    transition: border-radius 0.3s;
+}
+
+.main_container .login_form .group label {
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #fffa;
+    transition-property: top, left, color, font-size;
+    transition: 0.3s;
+}
+
+.main_container .login_form .group input:valid+label,
+.main_container .login_form .group input:focus+label {
+    top: -14px;
+    left: 0;
+    color: rgb(18, 17, 17);
+    font-size: 14px;
+}
+
+.main_container .login_form .group .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fffe;
+    text-shadow: 0 0 1px #0007;
+}
+
+.main_container .login_form button {
+    border: 2px outset #ffffff78;
+    display: inline-block;
+    background: linear-gradient(45deg, #ffffff05, #ffffff61);
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 0 0 4px #fff2;
+    margin: 20px 0;
+    cursor: pointer;
+    transition-property: transform, background;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.main_container .login_form button:hover {
+    background: linear-gradient(-45deg, #ffffff05, #ffffff61);
+}
+
+.main_container .login_form button:active {
+    transform: scale(0.95);
+}
+
+
+
+
+@keyframes move {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25%,
+    75% {
+        transform: translate(400%, 300%);
+    }
+
+    30%,
+    60%,
+    90% {
+        transform: translate(200%, 500%);
+    }
+
+    20%,
+    40%,
+    80% {
+        transform: translate(500%, 300%);
+    }
+
+    10%,
+    50% {
+        transform: translate(200%, 10%);
+    }
+}
+
+/*back to top */
+#backtotop {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 05px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#backtotop::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 10px;
+  color: rgb(11, 38, 244);
+}
+#backtotop:hover {
+  cursor: pointer;
+  background-color: rgb(19, 237, 92);
+}
+#backtotop:active {
+  background-color: #555;
+}
+#backtotop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*back to top */
+
